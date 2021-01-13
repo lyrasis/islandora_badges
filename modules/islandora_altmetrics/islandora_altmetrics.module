@@ -30,7 +30,7 @@ function islandora_altmetrics_block_info() {
     'islandora_altmetrics_altmetrics' => array(
       'visibility' => BLOCK_VISIBILITY_LISTED,
       'pages' => 'islandora/object/*',
-      'cache' => DRUPAL_CACHE_PER_PAGE,
+      'cache' => DRUPAL_NO_CACHE,
       'info' => t('Islandora Altmetrics Badge'),
     ),
   );
